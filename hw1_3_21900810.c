@@ -14,7 +14,6 @@ typedef struct {
 
 int main(){
 	char text[MAX_LEN];
-	char result[MAX_LEN];
 	WORD words[MAX_LEN];
 
         // state 0: word start - write [

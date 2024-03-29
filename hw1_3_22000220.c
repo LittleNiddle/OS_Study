@@ -3,6 +3,11 @@
 
 #define MAX_LEN 256
 
+// 21900810 황건하
+// Struct 사용 안함
+// white space 고려 안함
+// pre_char 부분을 isspace를 활용한 int variable로 만들면 whitespace를 해결할 수 있을 것이다.
+
 int main()
 {
 	// read a text from the user

@@ -10,6 +10,10 @@ struct Sentence{
 	int end;
 };
 
+// 21900810 황건하
+// 여러개의 space가 들어갈 경우 []가 출력되며 space가 word로 출력됨
+// 이전의 char와 현재 char가 whitespace인지 character인지 비교하는 알고리즘을 이용하면 될것이다.
+
 int main(){
 	char text[MAX_LEN] = "";
 	printf("Input a text line: ");

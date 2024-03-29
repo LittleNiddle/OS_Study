@@ -6,6 +6,12 @@
 #define WORD_LEN 32
 #define WORD_COUNT 256
 
+//21901013 김예은
+//여러 개의 whitespace로 문장을 끝날 때, 마지막 whitespace 자리에 ]가 출력된다
+//위에 경우 단어의 마지막 index가 잘못 출력된다
+//단어의 끝 확인 알고리즘에 조건을 바꾸면 될것 같아요.
+
+
 typedef struct {
 	int start;
 	int end;

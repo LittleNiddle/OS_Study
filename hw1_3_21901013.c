@@ -14,6 +14,10 @@ struct Sentence{
 // 여러개의 space가 들어갈 경우 []가 출력되며 space가 word로 출력됨
 // 이전의 char와 현재 char가 whitespace인지 character인지 비교하는 알고리즘을 이용하면 될것이다.
 
+// 22000220 남종운(늦게 보내드려 죄송합니다..)
+// 처음에 여러 개의 whitespace가 입력되었을 때, 이를 문자로 인식합니다.
+// 처음 입력을 받을 때, whitespace인지 확인하는 과정이 필요할 것 같습니다.
+
 int main(){
 	char text[MAX_LEN] = "";
 	printf("Input a text line: ");

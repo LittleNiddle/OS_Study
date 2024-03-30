@@ -29,7 +29,14 @@ int main(){
         // state 1: word - write " "
         // state 2: word end - write ]
         // state 3: blank world - write " "
+
+        // previous code
+        /*
         int state = 0;
+        */ 
+        // updated code
+        int state = 3;
+
         int count = 0;
         int wordCount = -1;
         int checkWS = 0;
@@ -64,20 +71,17 @@ int main(){
             if(state == 0){
                 printf("[");
                 wordCount++;
-
                 words[wordCount].start = count;
                 start = words[wordCount].start;
                 words[wordCount].word[count-start] = text[count];
             }
             else if(state == 1){
                 printf(" ");
-
                 start = words[wordCount].start;
                 words[wordCount].word[count-start] = text[count];
             }
             else if(state == 2){
                 printf("]");
-
                 start = words[wordCount].start;
                 words[wordCount].end = count;
                 words[wordCount].word[count-start] = '\0';
@@ -86,11 +90,19 @@ int main(){
                 printf(" ");
             }
         }
-
-        // last word
+        // previous code
+        /*
         printf("]\n");
         words[wordCount].end = count;
         words[wordCount].word[count-start] = '\0';
+        */ 
+        // updated code
+        if(state == 1){
+            printf("]");
+            words[wordCount].end = count;
+            words[wordCount].word[count-start] = '\0';
+	    }
+        printf("\n");
 
         for(int i=0; i<=wordCount; i++){
             printf("words[%d] = (%d, %d, %s)\n", i, words[i].start, words[i].end, words[i].word);

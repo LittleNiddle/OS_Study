@@ -12,6 +12,9 @@
 // 파일의 속성 정보들이 <dest_file>에 들어가지 않고 터미널에 바로 출력됩니다.
 // char* dst_file을 이용하여 파일을 열면 쉽게 수정 가능할 것 같습니다.
 
+//21901013 김예은
+//dst_file의 atime이 src_file이랑 같지 않습니다.
+
 int main(int argc, char *argv[])
 {
 	if(argc != 3){

@@ -10,6 +10,8 @@
 //프로그램을 실질적으로 실행 후 output_file의 mtime이 input_file과 같지 않고 다릅니다.
 //아마 output_file을 이후에 만들고 utime을 해서 그런것 같습니다.
 
+// 21900810 황건하
+// 문제가 없는것 같습니다!
 
 int main(int argc, char *argv[]) {
     char *input_file = argv[1];

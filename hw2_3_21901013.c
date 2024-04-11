@@ -15,6 +15,9 @@
 // 원래 존재하는 파일에 대한 수정을 할 때 오류가 발생합니다.
 // Line 36 des_file을 열 때 O_EXCL을 삭제하면 정상적으로 작동할 것 같습니다.
 
+// 21900810 황건하
+// 문제가 없는것 같습니다!
+
 int main(int argc, char *argv[]) {
   const char *source_file, *des_file;
   int s_state, d_state;

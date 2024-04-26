@@ -7,6 +7,9 @@
 #include <unistd.h>
 #include <string.h>
 
+// 21901013 김예은
+// 문제를 찾지 못했습니다.
+
 int main(int argc, char *argv[]){
 	
 	//DEBUG

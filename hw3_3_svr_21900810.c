@@ -11,6 +11,9 @@
 
 #define BUF_LEN 256
 
+// 21901013 김예은
+// 문제를 찾지 못했습니다.
+
 void execute_cmd(char* cmd);
 
 int main(int argc, char *argv[]){

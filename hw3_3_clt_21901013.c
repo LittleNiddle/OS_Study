@@ -11,6 +11,8 @@
 #define SIZE 512
 #define LEN 100
 
+// 22000220 남종운
+// 수정할 부분이 없어 보입니다.
 
 int main(int argc, char *argv[]){
     char command_line[LEN];

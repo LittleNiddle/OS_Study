@@ -14,6 +14,9 @@
 // 22000220 남종운
 // 수정할 부분이 없어 보입니다.
 
+// 21900810 황건하
+// 정상적으로 잘 작동합니다!
+
 int main(int argc, char *argv[]){
     char command_line[LEN];
     char *shm_filename = argv[1]; //shared memeory file name

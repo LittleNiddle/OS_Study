@@ -11,6 +11,8 @@
 #define MAX_LEN 50
 #define SIZE 512
 
+// 22000220 남종운
+// 수정할 부분이 없어 보입니다.
 
 int main(int argc, char *argv[]){
     char *shm_filename = argv[1]; //shared memeory file name

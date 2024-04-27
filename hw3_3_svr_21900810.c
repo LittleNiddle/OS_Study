@@ -14,6 +14,9 @@
 // 21901013 김예은
 // 문제를 찾지 못했습니다.
 
+// 22000220 남종운
+// 수정할 부분이 없어 보입니다.
+
 void execute_cmd(char* cmd);
 
 int main(int argc, char *argv[]){

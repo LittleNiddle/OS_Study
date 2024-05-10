@@ -10,6 +10,8 @@
 
 #define DEBUG			// comment out this line after completion
 
+//21901013 김예은
+//Line 11번을 주석으로 만들어서 프로그램을 실행할 때 커서가 보이지 않습니다.
 
 #define TRUE 1
 #define FALSE 0

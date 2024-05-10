@@ -14,6 +14,9 @@
 
 #define ESC 27
 
+//21901013 김예은
+//Line 197에 pthread_join()이 아닌 pthread_detach()를 사용해야 할것 같습니다.
+//pthread_join을 사용하면 하나의 미사일이(스레드) 끝나기 전까지 기다리기에 새로운 미사일을 만들수 없기 때문입니다.
 
 #define FIGHTER_LEN 3
 char fighter[] = "=B>";

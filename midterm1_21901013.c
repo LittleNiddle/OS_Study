@@ -10,6 +10,9 @@
 
 //#define DEBUG			// comment out this line after completion
 
+// 22000220 남종운
+// line 52: usleep(100000); 부분을 부모 프로세스에서 처리하면 더 좋을 것 같습니다.
+// else if(pid > 0) usleep(100000);
 
 #define TRUE 1
 #define FALSE 0

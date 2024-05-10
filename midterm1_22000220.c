@@ -10,6 +10,9 @@
 
 //#define DEBUG			// comment out this line after completion
 
+//21901013 김예은
+//문제의 요구사항에 의해 Line 88에 작성한 usleep을 Line 50에 else 내에 작성해야 될 것 같습니다.
+//(wrtie your code here and do not modify other parts)
 
 #define TRUE 1
 #define FALSE 0

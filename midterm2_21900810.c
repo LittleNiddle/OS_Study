@@ -16,6 +16,10 @@
 
 
 #define FIGHTER_LEN 3
+
+// 22000220 남종운
+// 문제가 없어 보입니다
+
 char fighter[] = "=B>";
 
 typedef struct {

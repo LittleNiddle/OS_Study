@@ -20,6 +20,9 @@
 // 22000220 남종운
 // 문제가 없어 보입니다.
 
+// 21900810 황건하
+// Line 200에 pthread_create 실패시 error나타내는 코드가 있으면 더 좋을것 같습니다.
+
 char fighter[] = "=B>";
 
 typedef struct {

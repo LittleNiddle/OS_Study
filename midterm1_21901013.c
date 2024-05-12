@@ -14,6 +14,10 @@
 // line 52: usleep(100000); 부분을 부모 프로세스에서 처리하면 더 좋을 것 같습니다.
 // else if(pid > 0) usleep(100000);
 
+// 21900810 황건하
+// parent process 부분을 활용하면 더 좋을것 같습니다.
+// line 59, 60, 61이 없어도 될것 같습니다.
+
 #define TRUE 1
 #define FALSE 0
 

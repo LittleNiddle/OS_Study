@@ -18,6 +18,9 @@
 //Line 197에 pthread_join()이 아닌 pthread_detach()를 사용해야 할것 같습니다.
 //pthread_join을 사용하면 하나의 미사일이(스레드) 끝나기 전까지 기다리기에 새로운 미사일을 만들수 없기 때문입니다.
 
+// 21900810 황건하
+// Line 200에 pthread_create 실패시 error나타내는 코드가 있으면 더 좋을것 같습니다.
+
 #define FIGHTER_LEN 3
 char fighter[] = "=B>";
 

@@ -32,6 +32,10 @@ typedef struct {
 // stdbool.h 헤더 파일을 추가하면 해결될 것 같습니다.
 
 
+//21901013 김예은
+//bool 타입의 사용을 위해  #include <stdbool.h>를 추가해야 될 것 같습니다.
+
+
 void *MoveVertical(void *vparam);
 int PointInRect(MyRect *rect, int x, int y);
 char GetRandomChar();

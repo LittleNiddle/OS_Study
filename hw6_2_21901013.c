@@ -25,6 +25,10 @@ typedef struct {
 	MyRect *rect;
 } ThreadParam;
 
+// 22000220 남종운
+// unlock 부분을 lock 조건문과 같이 걸어둬서 제대로 작동하지 않습니다.
+// !PointInRect(param->rect, x, taily+1) 조건문에 unlock을 따로 두면 제대로 작동할 것 같습니다!
+
 
 void *MoveVertical(void *vparam);
 int PointInRect(MyRect *rect, int x, int y);

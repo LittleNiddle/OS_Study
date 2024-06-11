@@ -9,6 +9,8 @@
 
 #include "Console.h"
 
+#include <stdbool.h>
+
 //#define DEBUG		// comment-out this line after completion
 
 #define TRUE 1
@@ -24,6 +26,10 @@ typedef struct {
 
 	MyRect *rect;
 } ThreadParam;
+
+// 22000220 남종운
+// bool 타입 사용이 컴파일 오류를 내고 있습니다.
+// stdbool.h 헤더 파일을 추가하면 해결될 것 같습니다.
 
 
 void *MoveVertical(void *vparam);

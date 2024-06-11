@@ -25,6 +25,9 @@ typedef struct {
 	MyRect *rect;
 } ThreadParam;
 
+//21901013 김예은
+//12번째 줄을 주석처리하면 좋을것 같습니다.
+//그외 수정할 부분을 찾지 못했습니다.
 
 void *MoveVertical(void *vparam);
 int PointInRect(MyRect *rect, int x, int y);
